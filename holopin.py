@@ -51,10 +51,9 @@ class HolopinPlugin(Plugin):
           await self.client.send_notice(room_id, text=f"Congratulations! Claim your brand new badge at {claim_url}")
           # Confirm success to the issuer
           await event.reply(f"Successfully sent badge to {user}.")
-          return None
         else:
           await event.reply(f"Issuing the regular badge {sticker_id} failed wit error {response.status}.")
-          return None
+      return None
     else:
       await event.reply(f"You're not allowed to issue badges.")
       return None
