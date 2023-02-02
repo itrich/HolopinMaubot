@@ -28,6 +28,7 @@ main_class: HolopinPlugin
 
 # An instruction for the mbc build command to bundle additional files in the .mbp file. Used for things like example configs.
 extra_files:
+- base-config.yaml
 
 # A list of Python modules and their version ranges that the plugin requires.
 # This is currently not used, but in the future maubot will offer to automatically install dependencies when uploading a plugin.
