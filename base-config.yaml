@@ -1,11 +1,11 @@
 api_key: YOUR_HOLOPIN_API_KEY
-whitelist:
+issuers:
   - "@user:matrix.org"
 badges:
-  regular:
-    - name: hackathon2022
-      id: cldbf3qbm1169608l9mo7y9o8u
-      description: |
-        After years of virtual collaboration, a new hope rises. This badge is a token of gratitude to all participants of
-        the first Sovereign Cloud Stack Community Hackathon 2022. Thank you for spending an amazing day with us in Cologne
-        and making a significant contribution to the success of this event.
+  hackathon2022:
+    type: "regular"
+    id: "cldbf3qbm1169608l9mo7y9o8u"
+    description: |
+      This badge was issued by using the Maubot Holopin plugin.
+    earning_criteria: |
+      To earn this badge, you must develop an integration for the [Matrix] communication network.
