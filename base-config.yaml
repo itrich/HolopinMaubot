@@ -2,7 +2,7 @@ api_key: YOUR_HOLOPIN_API_KEY
 issuers:
   - "@user:matrix.org"
 badges:
-  hackathon2022:
+  badge_alias:
     type: "regular"
     id: "cldbf3qbm1169608l9mo7y9o8u"
     description: |
