@@ -68,6 +68,17 @@ class HolopinPlugin(Plugin):
       await event.reply(f"You're not allowed to award badges.")
       return None
 
+  @holopin.subcommand(help="Display the board of a Holopin user, e.g. !holopin board user")
+  @command.argument("user", pass_raw=True, required=True)
+  async def award(self, event: MessageEvent, argument: str) -> None:
+    await event.mark_read()
+
+    if user:
+      
+    else:
+      await event.reply(f"Please provide a user whose board shall be posted.")
+      return None
+
   @classmethod
   def get_config_class(cls) -> Type[BaseProxyConfig]:
     return Config
